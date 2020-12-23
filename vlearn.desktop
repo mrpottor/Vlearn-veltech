@@ -1,0 +1,11 @@
+#!/usr/bin/env xdg-open
+ 
+[Desktop Entry]
+Name=Udemy Online
+Comment=Online Courses - Learn Anything, On Your Schedule
+Exec=udemy-online
+Icon=/usr/share/pixmaps/udemy-online.png
+Terminal=false
+Type=Application
+Categories=Education;
+
