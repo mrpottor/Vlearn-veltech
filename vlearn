@@ -3,8 +3,21 @@ from JAK.Application import JWebApp
 
 def vlearn_online():
     url = "http://vlearn.veltech.edu.in"
+    user_agent = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.105 Safari/537.36"
+    allow = url, url
+    rules = {"WebBrowserTab": allow}
+    webapp = JWebApp(
+        window={
+                    "title": "Vlearn-veltech"
+                },
+        webview={
+                    "userAgent": user_agent,
+                    "online": True,
+                    "webContents": url,
+                    "urlRules": rules
+                }
 
-    webapp = JWebApp(title="Vlearn", web_contents=url, online=True)
+    )
 
     return webapp
 
