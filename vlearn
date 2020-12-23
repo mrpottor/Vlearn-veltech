@@ -4,7 +4,7 @@ from JAK.Application import JWebApp
 def vlearn_online():
     url = "http://vlearn.veltech.edu.in"
 
-    webapp = JWebApp(title="Udemy Online", web_contents=url, online=True)
+    webapp = JWebApp(title="Vlearn", web_contents=url, online=True)
 
     return webapp
 
