@@ -12,7 +12,7 @@ git clone https://github.com/mrpottor/vlearn.git
 Run the installer:
 ```bash
 cd vlearn
-
+```
 Install using pip:
 ```bash
 pip3 install -r requirements.txt
