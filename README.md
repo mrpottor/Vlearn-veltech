@@ -6,12 +6,12 @@
 
 Clone repo:
 ```bash
-git clone https://github.com/mrpottor/vlearn.git
+git clone https://github.com/mrpottor/Vlearn-veltech.git
 ```
 
 Run the installer:
 ```bash
-cd vlearn
+cd Vlearn-veltech
 ```
 Install using pip:
 ```bash
