@@ -16,6 +16,7 @@ cd Vlearn-veltech
 Install using pip:
 ```bash
 pip3 install -r requirements.txt
+sudo sh install.sh
 ```
 or
 ```bash
